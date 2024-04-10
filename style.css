@@ -1,0 +1,26 @@
+body {
+    font-family: Anek Devanagari;
+    text-align: center;
+}
+
+#rpsChoices {
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+}
+
+img {
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#scoreboard {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+#scoreboard, div {
+    padding-left: 5%;
+    padding-right: 5%;
+}
